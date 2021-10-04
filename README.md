@@ -7,11 +7,11 @@ Irei ir disponibilizando os meus certificados e completando um check list do mod
 
 MODULO | CERTIFICADO
 ------------ | -------------
-Boas-vindas ao Bootcamp Eduzz Fullstack Developer | [CERTIFICADO]()
-Bem-Vindo à DIO | [CERTIFICADO]()
-Projetos ágeis com SCRUM | [CERTIFICADO]()
-Lógica de Programação Essencial| [CERTIFICADO]()
-Introdução ao GIT e ao GITHUB | [CERTIFICADO]()
-Introdução a criação de Websites com HTML5 e CSS3 | [CERTIFICADO]()
+Boas-vindas ao Bootcamp Eduzz Fullstack Developer | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/bemvindoeduzz.pdf)
+Bem-Vindo à DIO | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/bemvindodio.pdf)
+Projetos ágeis com SCRUM | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/projetosageisscrum.pdf)
+Lógica de Programação Essencial| [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/logicaessencial.pdf)
+Introdução ao GIT e ao GITHUB | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/gitegithub.pdf)
+Introdução a criação de Websites com HTML5 e CSS3 | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/introducaohtmlcss.pdf)
 
 
