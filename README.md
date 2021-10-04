@@ -5,14 +5,14 @@
 Atualmente o Bootcamp contem 33 módulos e 7 Mentorias que serão em datas espesíficas no formato de LIVE.
 Irei ir disponibilizando os meus certificados e completando um check list do modulos já realizados
 
-MODULO | STATUS
------------- | -------------
-Boas-vindas ao Bootcamp Eduzz Fullstack Developer | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/bemvindoeduzz.pdf)
-Bem-Vindo à DIO | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/bemvindodio.pdf)
-Projetos ágeis com SCRUM | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/projetosageisscrum.pdf)
-Lógica de Programação Essencial| [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/logicaessencial.pdf)
-Introdução ao GIT e ao GITHUB | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/gitegithub.pdf)
-Introdução a criação de Websites com HTML5 e CSS3 | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/introducaohtmlcss.pdf)
+MODULO | STATUS | DATA
+------------ | ------------- | -------------
+Boas-vindas ao Bootcamp Eduzz Fullstack Developer | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/bemvindoeduzz.pdf)| 18/09/2021
+Bem-Vindo à DIO | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/bemvindodio.pdf)| 18/09/2021
+Projetos ágeis com SCRUM | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/projetosageisscrum.pdf) | 18/09/2021
+Lógica de Programação Essencial| [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/logicaessencial.pdf)| 15/04/2021
+Introdução ao GIT e ao GITHUB | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/gitegithub.pdf) | 25/09/2021
+Introdução a criação de Websites com HTML5 e CSS3 | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/introducaohtmlcss.pdf) | 04/10/2021
 JavaScript ES6 essencial | [REALIZANDO]()
 Desenvolvimento avançado com JavaScript ES6 | [NÃO INICIADO]()
 Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces | [NÃO INICIADO]()
