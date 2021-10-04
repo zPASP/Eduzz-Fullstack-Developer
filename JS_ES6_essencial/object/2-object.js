@@ -39,4 +39,4 @@ person.name = 'Pedro Pinto';
 delete person.name;
 person.age = 26;
 
-console.log('\nVariável person após as alterações: ', person)
+console.log('\nVariável person após as alterações: ', person);
