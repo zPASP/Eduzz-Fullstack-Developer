@@ -3,6 +3,8 @@ body {
     padding: 15px;
     margin: 15px;
     font-family: Verdana;
+    max-width: 700px;
+    margin: auto;
 }
 
 .photo {
@@ -34,6 +36,7 @@ a {
 .post_img {
     margin-bottom: 15px;
     border-radius: 5px;
+    width: 100%;
 }
 
 
@@ -49,6 +52,7 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .contacts_list {
