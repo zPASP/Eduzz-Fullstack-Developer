@@ -5,7 +5,7 @@ const gender = {
     WOMAN: Symbol('W')
 }
 
-const persons = [
+const s = [
     {
         name: 'Pedro',
         age: 26,
@@ -24,33 +24,33 @@ const persons = [
 ]
 
 //retorna a quantidade de itens de um array
-console.log('Items:', persons.length);
+console.log('Items:', s.length);
 
 //verifica se é um array
-console.log('A variavel persons é um array: ', Array.isArray(persons));
+console.log('A variavel s é um array: ', Array.isArray(s));
 
 // Iterar os itens do array
-persons.forEach(person => {
+s.forEach(person => {
     console.log(`Nome: ${person.name}`);
 })
-//persons.forEach((person, index, arr) => {
+//s.forEach((person, index, arr) => {
 //    console.log(`Nome: ${person.name}, index: ${index}`, arr.length);
 //});
 //**********************************/
 //Filtrar array
-const mens = persons.filter(person => person.gender === gender.MAN);
+const mens = s.filter(person => person.gender === gender.MAN);
 console.log('\nNova lista apenas com homens: ', mens);
 
 // Retornar um novo
-const personsWithCourse = persons.map(person => {
+const personsWithCourse = s.map(person => {
     person.course = 'Introdução ao Javascript';
     return person;
 });
 
 console.log ('\nPessoas com a adição do course: ', personsWithCourse);
-//console.log ('\nPessoas sem a adição do course: ', persons); //não funcionou
+//console.log ('\nPessoas sem a adição do course: ', s); //não funcionou
 
-const totalAge = persons.reduce((age, person) => {
+const totalAge = s.reduce((age, person) => {
     age += person.age;
     return age;
 }, 0);
@@ -58,7 +58,7 @@ const totalAge = persons.reduce((age, person) => {
 console.log('\nSoma de idade das pessoas', totalAge);
 
 //juntanto operações
-const totalEvenAges = persons
+const totalEvenAges = s
                         .filter(person => person.age % 2 === 0)
                         .reduce((age, person) => {
                             age += person.age;
