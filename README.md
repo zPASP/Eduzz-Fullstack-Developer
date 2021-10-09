@@ -13,8 +13,8 @@ Projetos ágeis com SCRUM | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullsta
 Lógica de Programação Essencial| [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/logicaessencial.pdf)| 15/04/2021
 Introdução ao GIT e ao GITHUB | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/gitegithub.pdf) | 25/09/2021
 Introdução a criação de Websites com HTML5 e CSS3 | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/introducaohtmlcss.pdf) | 04/10/2021
-JavaScript ES6 essencial | [REALIZANDO]()
-Desenvolvimento avançado com JavaScript ES6 | [NÃO INICIADO]()
+JavaScript ES6 essencial | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/javascriptes6essencial.pdf)
+Desenvolvimento avançado com JavaScript ES6 | [REALIZANDO]()
 Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces | [NÃO INICIADO]()
 Resolvendo Desafios de Código em JavaScript | [NÃO INICIADO]()
 Desafios iniciais em JavaScript | [NÃO INICIADO]()
