@@ -1,6 +1,7 @@
 # JavaScript ES6
 
 Modulo explicando sobre o desenvolvimento avançado utilizando o JavaScript ES6 .
+### [Link no NOTION](https://three-ziconium-e47.notion.site/JavaScript-ES6-c5ec743a880947d583049c7d43aa0a17)
 
 ## Arrow Functions
 
@@ -97,10 +98,97 @@ Outras declarações de funções, argumentos e parâmetros.
     
     // a função é invocada sempre que a função não recebe nenhum argumento para o parametro.
     ```
-    
-- Desfunction
+   
+- Rest Operator
     
     ```jsx
-    var sum ({ a }) => a;
+    // Se trata de uma declaração dentro da lista de argumentos utilizada por três pontos " ... "
+    // pega todos os argumentos e salva na variavel com o prototype de array, assim podendo utilizar todos os metados de arrays.
+    function sum (...args) {
+    	return args.reduce((acc, value) => acc + value, 0);
+    }
+    function numbers (n1, n2, ...args) {
+    	console.log (n1, n2, args);
+    }
+    console.log (sum(5,5,5,10));
+    numbers(1,2,3,4,5); // 1  2  [3, 4, 5]
+    ```
+    
+- Spread Operator
+    
+    ```jsx
+    //Pega todos os itens do array e transforma em parametro para uma função.
+    const sum = (...args) => args.reduce((acc, value) => acc + value, 0);
+    const multiply = (...args) => args.reduce((acc, value) => acc * value, 1);
+    
+    function numbers (...args) { //rest
+    	return (` Soma dos numeros: ${sum(...args)}  
+    						Multiplicação dos numeros: ${multiply(...args)} `); //spread (enviando todos os itens do array
+    };
+    
+    console.log (numeros(5,5,5,5));
+    // Soma = 20
+    // multiplicação = 625
+    
+    ```
+    
+- + Spread Operator
+    
+    > Ele não fica limitado apenas a arrays, pode ser utilizados também em:
+     Strings, arrays, literal objects e objetos iteraveis.
+    > 
+    
+    ```jsx
+    const str = 'Digital Innovation One';
+    
+    function LogArgs (...args) {
+        console.log(args);
+    }
+    
+    LogArgs(...str) 
+    // ['D', 'i', 'g', 'i', 't', 'a', 'l', ' ', 'I', 'n', 'n', 'o', 'v', 'a', 't', 'i', 'o', 'n', ' ', 'O', 'n', 'e']
+    
+    ```
+    
+- Destructuring
+    
+    ```jsx
+    // Com o Destructuring é possivel deixar o codigo mais cruto e mais claro.
+    // Ele facilita o acesso a dados dentro de um array ou objeto e a criação de variáveis que contenham esses dados. 
+    
+    // Declaração de um objeto de exemplo:
+    const empresa = {
+    	nome: 'Eduzz',
+    	endereco: 'Rua feliz, 123 - Brazil',
+    	funcionarios: ['Pedro','Arthur'],
+    	linguagensUtilizadas: {
+    		python: false,
+    		javascript: true,
+    		java: false,
+    	}  	
+    }
+    
+    // para pegar apenas o nome da empresa inves de utilizar ( empresa.nome )
+    const {nome} = empresa;
+    const {endereço, funcionarios} = empresa; //serve tambem para atribuir a multiplos
+    
+    //caso queira mudar o nome da variavel
+    const { nome: nomedaEmpresa } = empresa; console.log(nomeDaEmpresa) // Eduzz
+    
+    //caso variavel não esteja declarada
+    const {produtos: produtosEmpresa = 'Não informado'} = empresa; // utlizando o default values. assim caso seja tenha a propriedade retorna o valor se não é atribuido o default.
+    console.log(produtosEmpresa); // Não informado
+    
+    // caso queira usar um argumento em uma função.
+    const totalFuncionarios = ({funcionarios: {length}) => length;
+    console.log(totalFuncionarios(empresa));
+    
+    // tambem possivel utilizar com array
+    arr = [1,2,3,4,5];
+    function somar ([a, b] = [1, 0]) {
+    	return a + b;
+    }
+    console.log(somar(arr)); //3 
+    console.log(somar()); //1
     ```
     
