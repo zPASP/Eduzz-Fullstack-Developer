@@ -191,4 +191,9 @@ Outras declarações de funções, argumentos e parâmetros.
     console.log(somar(arr)); //3 
     console.log(somar()); //1
     ```
+
+- Destructuring
+    ```jsx
+    // introdução a generators
+    ```
     
