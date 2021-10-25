@@ -40,7 +40,7 @@ doSomethingPromise
     .catch(error => console.log('Ops', error));
 
 // executando um array de promisse e só da o retorno quando finaliza todas em um array
-Promise.all ([doOtherthingPromise(), doSomethingPromise])
+Promise.all([doOtherthingPromise(), doSomethingPromise])
     .then((data) => {
         console.log(data);
     }).catch((err) => {
