@@ -14,7 +14,7 @@ Lógica de Programação Essencial| [CERTIFICADO](https://github.com/zPASP/Eduzz
 Introdução ao GIT e ao GITHUB | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/gitegithub.pdf) | 25/09/2021
 Introdução a criação de Websites com HTML5 e CSS3 | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/introducaohtmlcss.pdf) | 04/10/2021
 JavaScript ES6 essencial | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/javascriptes6essencial.pdf) | 09/10/2021
-Desenvolvimento avançado com JavaScript ES6 | [REALIZANDO]()
+Desenvolvimento avançado com JavaScript ES6 | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/javascriptes6avancado.pdf) | 25/10/2021
 Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces | [NÃO INICIADO]()
 Resolvendo Desafios de Código em JavaScript | [NÃO INICIADO]()
 Desafios iniciais em JavaScript | [NÃO INICIADO]()
