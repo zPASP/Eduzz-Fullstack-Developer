@@ -98,7 +98,7 @@ Outras declarações de funções, argumentos e parâmetros.
     
     // a função é invocada sempre que a função não recebe nenhum argumento para o parametro.
     ```
-   
+    
 - Rest Operator
     
     ```jsx
@@ -132,24 +132,25 @@ Outras declarações de funções, argumentos e parâmetros.
     
     ```
     
-- + Spread Operator
-    
-    > Ele não fica limitado apenas a arrays, pode ser utilizados também em:
-     Strings, arrays, literal objects e objetos iteraveis.
-    > 
-    
-    ```jsx
-    const str = 'Digital Innovation One';
-    
-    function LogArgs (...args) {
-        console.log(args);
-    }
-    
-    LogArgs(...str) 
-    // ['D', 'i', 'g', 'i', 't', 'a', 'l', ' ', 'I', 'n', 'n', 'o', 'v', 'a', 't', 'i', 'o', 'n', ' ', 'O', 'n', 'e']
-    
-    ```
-    
+
+  + Spread Operator
+
+> Ele não fica limitado apenas a arrays, pode ser utilizados também em:
+ Strings, arrays, literal objects e objetos iteraveis.
+> 
+
+```jsx
+const str = 'Digital Innovation One';
+
+function LogArgs (...args) {
+    console.log(args);
+}
+
+LogArgs(...str) 
+// ['D', 'i', 'g', 'i', 't', 'a', 'l', ' ', 'I', 'n', 'n', 'o', 'v', 'a', 't', 'i', 'o', 'n', ' ', 'O', 'n', 'e']
+
+```
+
 - Destructuring
     
     ```jsx
@@ -191,9 +192,98 @@ Outras declarações de funções, argumentos e parâmetros.
     console.log(somar(arr)); //3 
     console.log(somar()); //1
     ```
+    
 
-- Destructuring
+## Callbacks and Promises
+
+- O que é uma operação assíncrona:
+    - O código JS é executado em uma única thread, em forma de cima para baixo de forma (sendo assim de forma síncrona)
+- Callback
+    - É um tipo de função que só é executada após o processamento de outra função.
+    
     ```jsx
-    // introdução a generators
+    // Nesse exemplo mostra como funciona a execução assincrona do JS e por conta do Timeout na função "primeiro bloco" ela não executa (fica pendente) e assim perde o lugar na fila de execução e só executa ao ter algum retorno.
+    function primeiroBloco(){
+    	// Aguardar 5 segundos
+        setTimeout( function(){
+        console.log('Esse é o primeiro bloco de comandos após 5 segundos');
+        }, 5000 );
+    }
+    function segundoBloco(){
+    	console.log('Esse é o segundo bloco de comandos');
+    }
+    primeiroBloco();
+    segundoBloco();
     ```
     
+- Promises
+    - É um objeto que representa o sucesso ou falha de uma operação assíncrona.
+    Promises pode ter 4 estados:
+        - Pending: O estado inicial da Promise, ela foi iniciada porem ainda não foi realizada nen rejeitada.
+        - Fullfilled: O sucesso da operação, é o que chamamos de realizada ou resolvida.
+        - Rejected: Falha na operação, é o chamamos de uma promises rejeitada.
+        - settled: É o estado final da promise, quando ela já sabe se foi resolved ou rejected.
+    
+    ```jsx
+    // nesse exemplo esta sendo criado uma nova promessa para um numero aleatorio e sendo realizada a verificação do valor e com o resultado é retornado 
+    const p = new Promise((resolve, reject) => {
+      if (Math.random() > 0.5) resolve('yay')
+      reject('no')
+    })
+    
+    p
+    .then(function acao1 (res) { console.log(`${res} da ação 1`); return res; })
+    .then(function acao2 (res) { console.log(`${res} da ação 2`); return res; })
+    .then(function acao3 (res) { console.log(`${res} da ação 3`); return res; })
+    .catch(function erro (rej) { console.error(rej) })
+    ```
+    
+
+- Promisse.all
+    - Ela recebe um array de promisses não resolvidas e inicia todas elas. Só ira terminar em dois casos:
+        - 1 - Todas as Promises do Array foram resolvidas.
+        - 2 - Pelo menos uma Promises foi rejeitada.
+    - Ou seja é tudo ou nada. Se tiverem sucesso, o método terá sucesso, porém no primeiro erro, o método te devolverá um erro.
+    
+    ```jsx
+    // caso todos tenham sucesso será retornado um array com o resolved de cada Promise ou o '.catch' como retorno atribuido a ele.
+    Promise.all([
+      new Promise(resolve => setTimeout(resolve, 1500)),
+      new Promise(resolve => setTimeout(resolve, 900)),
+      new Promise(resolve => setTimeout(resolve, 2200))
+    ])
+    .then(results => results.length.b.c)
+    .then(c => console.info(c))
+    .catch(err => console.error(err))
+    ```
+    
+- Métodos de Promises:
+    - Promise.resolve e Promises.reject
+    Esses dois métodos são atalhos para quando queremos retornar uma Promise que sempre terá o mesmo valor, ou sempre resolvida, ou sempre rejeitada.
+        - Promise.resolve
+            
+            > const p = Promises.resolve('PASS');
+            > 
+        - Promise.resolve
+            
+            > const p = Promises.reject('ERROR');
+            > 
+    - Promise.race
+    Recebe um Array de Promises inicializa todas elas, a que der retorno primeiro vai ser o retorno do método por completo.
+    - Async/Await
+    são uma sintaxe que simplifica a programação assíncrona, facilitando o fluxo de escrita e leitura do código; assim é possível escrever código que funciona de forma assíncrona, porém é lido e estruturado de forma síncrona. O `async/await` trabalha com o código baseado em Promises, porém esconde as promessas para que a leitura seja mais fluída e simples de entender.
+        
+        ```jsx
+        let response = await fetch(`https://api.com/api/user/${userId}`);
+        let userData = await response.json();
+        ```
+        
+        Só é possível usar `await` em funções declaradas com a palavra-chave `async`, então vamos adicioná-la:
+        
+        ```jsx
+        async function getUser(userId) {
+         let response = await fetch(`https://api.com/api/user/${userId}`);
+         let userData = await response.json();
+         return userData.name; // não é necessário o await no return
+        }
+        ```
