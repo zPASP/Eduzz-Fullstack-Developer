@@ -1,1 +1,1 @@
-{"version":3,"sources":["index.ts"],"names":[],"mappings":"AAAA,OAAO,CAAC,GAAR,CAAY,YAAZ","file":"basic_TypeScript.77de5100.js","sourceRoot":"..","sourcesContent":["console.log('TypeScript');"]}
+{"version":3,"sources":["index.ts"],"names":[],"mappings":"AAAA,SAAS,IAAT,CAAc,CAAd,EAAyB,CAAzB,EAAkC;AAC9B,SAAO,CAAC,GAAG,CAAX;AACH;;AAED,OAAO,CAAC,GAAR,CAAY,IAAI,CAAE,CAAF,EAAK,CAAL,CAAhB","file":"basic_TypeScript.77de5100.js","sourceRoot":"..","sourcesContent":["function soma(a: number, b: number) {\r\n    return a + b;\r\n}\r\n\r\nconsole.log(soma (1, 2));"]}

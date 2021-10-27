@@ -7,3 +7,6 @@ instalação do parcel-bundler:
 Inicializar o servidor NPM:
     ~npm run start
 
+Criar o arquivo .gitignore:
+    ~gitignore node
+        
