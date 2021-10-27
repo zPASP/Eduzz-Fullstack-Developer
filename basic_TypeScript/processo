@@ -1,0 +1,9 @@
+Primeiro inicializa do projeto com o NPM:
+    ~npm init
+
+instalação do parcel-bundler:
+    ~npm i parcel-bundler
+
+Inicializar o servidor NPM:
+    ~npm run start
+
