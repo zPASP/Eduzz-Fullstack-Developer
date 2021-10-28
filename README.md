@@ -17,7 +17,7 @@ JavaScript ES6 essencial | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstac
 Desenvolvimento avançado com JavaScript ES6 | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/javascriptes6avancado.pdf) | 25/10/2021
 Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces | [REALIZANDO]()
 Resolvendo Desafios de Código em JavaScript | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/resolvendodesafiosdecodigojavascript.pdf) | 27/10/2021
-Desafios iniciais em JavaScript | [NÃO INICIADO]()
+Desafios iniciais em JavaScript | [CONCLUIDO]() | 27/10/2021
 Criando seu jogo da memória estilo Genius | [NÃO INICIADO]()
 Introdução ao ReactJS | [NÃO INICIADO]()
 Trabalhando com componentes em REACT | [NÃO INICIADO]()
