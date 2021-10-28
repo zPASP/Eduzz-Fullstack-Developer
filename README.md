@@ -16,7 +16,7 @@ Introdução a criação de Websites com HTML5 e CSS3 | [CERTIFICADO](https://gi
 JavaScript ES6 essencial | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/javascriptes6essencial.pdf) | 09/10/2021
 Desenvolvimento avançado com JavaScript ES6 | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/javascriptes6avancado.pdf) | 25/10/2021
 Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces | [REALIZANDO]()
-Resolvendo Desafios de Código em JavaScript | [NÃO INICIADO]()
+Resolvendo Desafios de Código em JavaScript | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/resolvendodesafiosdecodigojavascript.pdf) | 27/10/2021
 Desafios iniciais em JavaScript | [NÃO INICIADO]()
 Criando seu jogo da memória estilo Genius | [NÃO INICIADO]()
 Introdução ao ReactJS | [NÃO INICIADO]()
