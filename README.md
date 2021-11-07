@@ -15,7 +15,7 @@ Introdução ao GIT e ao GITHUB | [CERTIFICADO](https://github.com/zPASP/Eduzz-F
 Introdução a criação de Websites com HTML5 e CSS3 | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/introducaohtmlcss.pdf) | 04/10/2021
 JavaScript ES6 essencial | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/javascriptes6essencial.pdf) | 09/10/2021
 Desenvolvimento avançado com JavaScript ES6 | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/javascriptes6avancado.pdf) | 25/10/2021
-Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces | [REALIZANDO]()
+Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces | [CONCLUIDO]() | 06/11/2021
 Resolvendo Desafios de Código em JavaScript | [CERTIFICADO](https://github.com/zPASP/Eduzz-Fullstack-Developer/blob/main/certificados/resolvendodesafiosdecodigojavascript.pdf) | 27/10/2021
 Desafios iniciais em JavaScript | [CONCLUIDO]() | 27/10/2021
 Criando seu jogo da memória estilo Genius | [NÃO INICIADO]()
